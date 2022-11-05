@@ -1,0 +1,79 @@
+.navbar {
+    width: 100%;
+    max-height: 12vmax;
+    background-color: #272343;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+.white_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: white;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.hiring_img {
+    padding: 5vmax;
+    width: 40vmax;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.home_container_1 {
+    min-height: 40vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home_container_1 h2 {
+    font-size: 3vmax;
+}
+
+.home_container_1 h3 {
+    font-size: 2vmax;
+}
+
+.home_container_1_left {
+    padding-left: 10vmax;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-right: 10vmax; */
+}
+
+.home_container_1_right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    background: #e3f6f5;
+}
